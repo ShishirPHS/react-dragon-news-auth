@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import userDefaultPic from "../../../assets/user.png";
 import "./Navbar.css";
 
@@ -18,7 +18,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -52,9 +52,12 @@ const Navbar = () => {
         <div className="w-10 rounded-full">
           <img src={userDefaultPic} alt="Image of user" />
         </div>
-        <a className="text-white text-xl font-semibold py-3 px-11 bg-[#403F3F] normal-case ml-2">
+        <Link
+          to="/login"
+          className="text-white text-xl font-semibold py-3 px-11 bg-[#403F3F] normal-case ml-2"
+        >
           Login
-        </a>
+        </Link>
       </div>
     </div>
   );
