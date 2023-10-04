@@ -49,8 +49,12 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
-        <div className="w-10 rounded-full">
-          <img src={userDefaultPic} alt="Image of user" />
+        <div className="w-10 h-10 rounded-full border-2 border-[#403F3F]">
+          <img
+            className="w-full h-full rounded-[38%]"
+            src={userDefaultPic}
+            alt="Image of user"
+          />
         </div>
         <Link
           to="/login"
