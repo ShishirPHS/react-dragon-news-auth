@@ -1,0 +1,13 @@
+ul li a {
+  color: #706f6f;
+}
+ul li a:hover {
+  background-color: transparent !important;
+}
+
+ul li a.active {
+  background-color: transparent !important;
+  color: #de1717 !important;
+  font-weight: 600;
+  text-decoration: underline;
+}

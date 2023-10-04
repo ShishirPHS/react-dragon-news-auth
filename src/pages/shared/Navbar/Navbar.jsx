@@ -1,23 +1,18 @@
 import { NavLink } from "react-router-dom";
 import userDefaultPic from "../../../assets/user.png";
+import "./Navbar.css";
 
 const Navbar = () => {
   const navLinks = (
     <>
       <li>
-        <NavLink className="hover:bg-transparent" to="/">
-          Home
-        </NavLink>
+        <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <NavLink className="hover:bg-transparent" to="/about">
-          About
-        </NavLink>
+        <NavLink to="/about">About</NavLink>
       </li>
       <li>
-        <NavLink className="hover:bg-transparent" to="/career">
-          Career
-        </NavLink>
+        <NavLink to="/career">Career</NavLink>
       </li>
     </>
   );
