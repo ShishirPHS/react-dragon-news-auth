@@ -5,6 +5,9 @@ import {
 } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs";
 import { BiLogoInstagramAlt } from "react-icons/bi";
+import qZone1 from "../../../assets/qZone1.png";
+import qZone2 from "../../../assets/qZone2.png";
+import qZone3 from "../../../assets/qZone3.png";
 
 const RightSideNav = () => {
   return (
@@ -37,6 +40,16 @@ const RightSideNav = () => {
             <BiLogoInstagramAlt className="text-xl mr-3"></BiLogoInstagramAlt>
             Instagram
           </button>
+        </div>
+      </div>
+      <div className="py-4 px-1 bg-[#F3F3F3] mb-5">
+        <h3 className="px-4 text-[#403F3F] text-xl font-semibold mb-5">
+          Q-Zone
+        </h3>
+        <div className="space-y-5">
+          <img src={qZone1} alt="swimming a little girl" />
+          <img src={qZone2} alt="children in a class" />
+          <img src={qZone3} alt="children in a play ground" />
         </div>
       </div>
     </div>
