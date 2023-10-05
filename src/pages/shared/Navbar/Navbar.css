@@ -1,12 +1,12 @@
-ul li a {
+.navUl li a {
   color: #706f6f;
   font-size: 18px;
 }
-ul li a:hover {
+.navUl li a:hover {
   background-color: transparent !important;
 }
 
-ul li a.active {
+.navUl li a.active {
   background-color: transparent !important;
   color: #de1717 !important;
   font-weight: 600;

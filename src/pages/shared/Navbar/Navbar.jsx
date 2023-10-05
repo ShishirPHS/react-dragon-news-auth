@@ -53,14 +53,14 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="navUl menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             {navLinks}
           </ul>
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{navLinks}</ul>
+        <ul className="navUl menu menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
         <div className="w-10 h-10 rounded-full border-2 border-[#403F3F]">
